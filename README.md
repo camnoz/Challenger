@@ -2,14 +2,14 @@
 Desarrolle una aplicación que exponga una API RESTful de creación de usuarios.
 Todos los endpoints deben aceptar y retornar solamente JSON, inclusive al para los mensajes de error.
 
-#####Todos los mensajes deben seguir el formato:
+##### Todos los mensajes deben seguir el formato:
 
 
     {
         "message": "mensaje de error"
     }
     
-##Registro
+## Registro
 
 Ese endpoint deberá recibir un usuario con los campos "nombre", "correo", "contraseña", más un listado de objetos "teléfono", respetando el siguiente formato:
 
@@ -41,7 +41,7 @@ Ese endpoint deberá recibir un usuario con los campos "nombre", "correo", "cont
 *	La clave debe seguir una expresión regular para validar que formato sea el correcto. (Una Mayuscula, letras minúsculas, y dos números)
 *	El token deberá ser persistido junto con el usuario
 
-##Requisitos mandatorios
+## Requisitos mandatorios
 
 *	Plazo: 2 días.
 *	Banco de datos en memoria.
@@ -54,10 +54,10 @@ Ese endpoint deberá recibir un usuario con los campos "nombre", "correo", "cont
 *	Entregar diagrama de componentes de la solución y al menos un diagrama de secuencia.
 *	README.md debe contener las instrucciones para levantar y usar el proyecto.
 
-##Requisitos deseables
+## Requisitos deseables
 *	JWT cómo token
 
-##Resultados Sonar
+## Resultados Sonar
 
 *   Blocker: 0
 *   Critical: 0
@@ -65,6 +65,6 @@ Ese endpoint deberá recibir un usuario con los campos "nombre", "correo", "cont
 *   Minor: 0
 *   Info: 4
 
-##Coverage
+## Coverage
 
 * Coverage 74.3%
